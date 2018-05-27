@@ -1,0 +1,4 @@
+<h1>private</h1>
+<% @repo_list.each do |repo|%>
+  <%= link_to repo["full_name"], repo_commit_path(repo["name"])%></br>
+<%end%>

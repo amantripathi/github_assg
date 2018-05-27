@@ -1,0 +1,6 @@
+<%@commits.each do |commit|%>
+  <h2>Name: <%= commit["commit"]["committer"]["name"]%></h2>
+  <h2>Date: <%= commit["commit"]["committer"]["date"].to_date.strftime('%b %d, %Y')%></h2>
+  <h2>Message: <%= commit["commit"]["message"]%></h2>
+  </br></br>
+<%end%>
