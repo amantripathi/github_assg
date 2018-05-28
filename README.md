@@ -1,7 +1,7 @@
 
 # README
 
-This project is for oauth github and listing all the repositories. And clicking on repo will show all the commits of the selected repo
+This app is for oauth github and listing all the repositories. And clicking on repo will show all the commits of the selected repo
 
 Things you may want to cover:
 
