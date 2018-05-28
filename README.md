@@ -1,26 +1,18 @@
 
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is for oauth github and listing all the repositories. And clicking on repo will show all the commits of the selected repo
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.3.1
 
-* System dependencies
+* Rails Version 5.2
 
-* Configuration
+* Postgresql database used
 
-* Database creation
+* rake db:create
 
-* Database initialization
+* rake db:migrate
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
